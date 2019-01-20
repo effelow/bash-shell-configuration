@@ -1,7 +1,7 @@
 # Bash Shell Configuration
 
 ##  Description:
-This repo holds usefull bash shell client configurations. The .bash_profile contains a set of aliases and shell functions that eases your when life working with the terminal. 
+This repo holds useful bash shell client configurations. The .bash_profile contains a set of aliases and shell functions that eases your when life working with the terminal. 
 
 ## Work from others
 
