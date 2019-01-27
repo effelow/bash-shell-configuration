@@ -2,7 +2,7 @@
 #  --------------------------------------------------------------------------
 #
 #  Description:
-#       This repo holds usefull bash shell client configurations. The .bash_profile contains a set of aliases and shell functions that eases your when life working with the terminal. 
+#       This repo holds usefull bash shell client configurations. The .bash_profile contains a set of aliases and shell functions that eases your when life working with the terminal.
 #
 #  Main Reference:
 #       - https://gist.github.com/natelandau/10654137 Many thanks to Nathaniel Landau
@@ -27,7 +27,7 @@
 #  ---------------------------------------------------------------------------
 
 
-# This snippet is from Nicolas Hery (https://github.com/nicolashery): 
+# This snippet is from Nicolas Hery (https://github.com/nicolashery):
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
@@ -74,7 +74,7 @@ unset file
 
 #   2.0 Client-Individual:
 #   --------------------
-source $HOME/.work_profile		            # Put client individual or temporary configs into a work_profile file!
+source $HOME/.work_profile		              # Put configs that are individual on each workstation (e.g. ssh-config )into a .work_profile file!
 
 #   2.1 Client-Specific:
 #   --------------------
@@ -92,10 +92,7 @@ alias DT='tee ~/Desktop/terminalOut.txt'    # DT:           Pipe content to file
 #   --------------------
 alias cp='cp -iv'                           # Preferred 'cp' implementation
 alias mv='mv -iv'                           # Preferred 'mv' implementation
-#alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
 alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
-#alias less='less -FSRXc'                    # Preferred 'less' implementation
-#cd() { builtin cd "$@"; ll; }               # Always list directory contents upon 'cd'
 alias cd..='cd ../'                         # Go back 1 directory level (for fast typers)
 alias ..='cd ../'                           # Go back 1 directory level
 alias ...='cd ../../'                       # Go back 2 directory levels
@@ -103,9 +100,6 @@ alias .3='cd ../../../'                     # Go back 3 directory levels
 alias .4='cd ../../../../'                  # Go back 4 directory levels
 alias .5='cd ../../../../../'               # Go back 5 directory levels
 alias .6='cd ../../../../../../'            # Go back 6 directory levels
-#alias ~="cd ~"                              # ~:            Go Home
-#alias c='clear'                             # c:            Clear terminal display
-#alias which='type -all'                     # which:        Find executables
 alias path='echo -e ${PATH//:/\\n}'         # path:         Echo all executable Paths
 alias show_options='shopt'                  # Show_options: display bash options settings
 alias fix_stty='stty sane'                  # fix_stty:     Restore terminal settings when screwed up
@@ -343,5 +337,3 @@ export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache  # cache pip-installed packages to av
 #   then use: ~/Dev/Perl/randBytes 1048576 > 10MB.datexport PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
 #export PATH="$HOME/.jenv/bin:$PATH"
 #eval "$(jenv init -)"
-
-
