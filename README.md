@@ -27,13 +27,21 @@ Download the git repo
 $ git clone https://github.com/effelow/bash-shell-configuration.git
 ```
 
-Create a symlink in your home linking the .bash_profile in the repo
+Create a symlink in your home linking the .bash_profile, .bash_prompt, and .aliases in the repo
 
 ```console
 $ ln -s ./bash-shell-configuration/.bash_profile ~/.bash_profile
 ```
 
-Do the same for .bash_prompt and .aliases
+```console
+$ ln -s ./bash-shell-configuration/.bash_prompt ~/.bash_prompt
+```
+
+```console
+$ ln -s ./bash-shell-configuration/.aliases ~/.aliases
+```
+
+
 
 Add the .gitconfig to your local git configuration
 
