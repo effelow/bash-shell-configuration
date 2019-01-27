@@ -22,7 +22,7 @@ Download the git repo
 $ git clone https://github.com/effelow/bash-shell-configuration.git
 ```
 
-Create a symlink in your home linking the .profile in the repo
+Create a symlink in your home linking the .bash_profile in the repo
 
 ```console
 $ ln -s ./bash-shell-configuration/.bash_profile ~/.bash_profile
