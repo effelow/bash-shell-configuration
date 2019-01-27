@@ -36,7 +36,7 @@ Do the same for .bash_prompt and .aliases
 Add the .gitconfig to your local git configuration
 
 ```console
-edit ~/.gitconfig
+$ edit ~/.gitconfig
     [include]
         path = ~/[path-to-repo]/bash-shell-configuration/.gitconifig
 ```
