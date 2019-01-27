@@ -41,8 +41,6 @@ $ ln -s ./bash-shell-configuration/.bash_prompt ~/.bash_prompt
 $ ln -s ./bash-shell-configuration/.aliases ~/.aliases
 ```
 
-
-
 Add the .gitconfig to your local git configuration
 
 ```console
@@ -50,3 +48,10 @@ $ edit ~/.gitconfig
     [include]
         path = ~/[path-to-repo]/bash-shell-configuration/.gitconifig
 ```
+
+Create a ~/.work_profile! 
+
+```console
+$ echo "# workstations customizations" > ~/.work_profile
+```
+
