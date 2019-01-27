@@ -13,3 +13,20 @@ This repo holds useful bash shell client configurations. The .bash_profile conta
 [Solarized theme]:                          http://ethanschoonover.com/solarized
 [.bash_profile, .bash_prompt, .aliases]:    https://gist.github.com/natelandau/10654137
 [Sexy Bash Prompt]:                         https://github.com/gf3/dotfiles
+
+## Installation
+
+Download the git repo
+
+```console
+$ git clone https://github.com/effelow/bash-shell-configuration.git
+```
+
+Create a symlink in your home linking the .profile in the repo
+
+```console
+$ ln -s ./bash-shell-configuration/.bash_profile ~/.bash_profile
+```
+
+
+
