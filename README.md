@@ -49,7 +49,7 @@ $ edit ~/.gitconfig
         path = ~/[path-to-repo]/bash-shell-configuration/.gitconifig
 ```
 
-Create a ~/.work_profile! 
+Create a ~/.work_profile
 
 ```console
 $ echo "# workstations customizations" > ~/.work_profile
