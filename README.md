@@ -1,6 +1,6 @@
 # Bash Shell Configuration
 
-##  Description:
+##  Description: 
 This repo holds useful bash shell client configurations. The .bash_profile contains a set of aliases and shell functions that eases your when life working with the terminal.
 
 Create a ~/.work_profile! It will hold all individual configurations of your workstation! This will allow you to customize configurations in case you have multiple workstations and still share general configurations across at the same time. 
