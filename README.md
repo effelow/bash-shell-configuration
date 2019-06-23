@@ -57,10 +57,5 @@ $ echo "# workstations customizations" > ~/.work_profile
 
 Finally, to configure your preferred color setting, go to preferences --> Profiles --> Press "+" to Add new profile --> Navigate to the Colors tab --> Color presets...
 
-# Images in readme
-
-<img src="images/solarized_dark.png" widh="600" >
-
-![Solarized Dark](images/solarized_dark.png)
-
+<img src="images/solarized_dark.png" widh="100" >
 
