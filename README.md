@@ -21,32 +21,30 @@ https://github.com/ciukes/CommonGitConf
 
 ## Installation
 
-Download the git repo
+Download the git repo into a directory of your choice. I put it in a directory called 'github' in my home directory
 
 ```console
 $ git clone https://github.com/effelow/bash-shell-configuration.git
-```
-
 Create a symlink in your home linking the .bash_profile, .bash_prompt, and .aliases in the repo
 
 ```console
-$ ln -s ./bash-shell-configuration/.bash_profile ~/.bash_profile
+$ ln -s ./github/bash-shell-configuration/.bash_profile ~/.bash_profile
 ```
 
 ```console
-$ ln -s ./bash-shell-configuration/.bash_prompt ~/.bash_prompt
+$ ln -s ./github/bash-shell-configuration/.bash_prompt ~/.bash_prompt
 ```
 
 ```console
-$ ln -s ./bash-shell-configuration/.aliases ~/.aliases
+$ ln -s ./github/bash-shell-configuration/.aliases ~/.aliases
 ```
 
-Add the .gitconfig to your local git configuration
+Add the .gitconfig to your local git configuration. 
 
 ```console
 $ edit ~/.gitconfig
     [include]
-        path = ~/[path-to-repo]/bash-shell-configuration/.gitconifig
+        path = ~/github/bash-shell-configuration/.gitconifig
 ```
 
 Create a ~/.work_profile
