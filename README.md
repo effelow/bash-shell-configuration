@@ -21,10 +21,12 @@ https://github.com/ciukes/CommonGitConf
 
 ## Installation
 
-Download the git repo into a directory of your choice. I just put it in a directory nameded "github" in my home directory.
+Download the git repo into a directory of your choice. I just put it in a directory named "github" in my home directory.
 
 ```console
 $ git clone https://github.com/effelow/bash-shell-configuration.git
+```
+
 Create a symlink in your home linking the .bash_profile, .bash_prompt, and .aliases in the repo
 
 ```console
