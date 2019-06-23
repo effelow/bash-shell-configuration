@@ -57,5 +57,6 @@ $ echo "# workstations customizations" > ~/.work_profile
 
 Finally, to configure your preferred color setting, to preferences --> Profiles --> Press "+" to Add new profile --> Navigate to the Colors tab --> Color presets...
 
-![Solarized Dark]
-(https://github.com/effelow/bash-shell-configuration/images/solarized_dark.png) 
+![Solarized Dark](https://github.com/effelow/bash-shell-configuration/tree/master/images)
+
+
