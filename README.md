@@ -27,7 +27,7 @@ Download the git repo into a directory of your choice. I just put it in a direct
 $ git clone https://github.com/effelow/bash-shell-configuration.git
 ```
 
-Create a symlink in your home linking the .bash_profile, .bash_prompt, and .aliases in the repo
+Create a symlink in your home linking the .bash_profile, .bash_prompt, and .aliases in the repo. (In case any of these files exist just delete or move them)
 
 ```console
 $ ln -s ./github/bash-shell-configuration/.bash_profile ~/.bash_profile
